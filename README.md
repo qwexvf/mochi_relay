@@ -1,5 +1,5 @@
 > **Active development** — breaking changes may be pushed to `main` at any time.
-> Built with the help of [Claude Code](https://claude.ai/code).
+
 
 # mochi_relay
 
@@ -30,4 +30,6 @@ let connection =
 ## License
 
 Apache-2.0
+
+---
 Built with the help of [Claude Code](https://claude.ai/code).
