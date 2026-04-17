@@ -6,7 +6,7 @@ repository = { type = "github", user = "qwexvf", repo = "mochi" }
 
 [dependencies]
 gleam_stdlib = ">= 0.44.0 and < 2.0.0"
-mochi = { path = "../mochi" }
+mochi = { git = "https://github.com/qwexvf/mochi", ref = "main" }
 
 [dev-dependencies]
 gleeunit = ">= 1.0.0 and < 2.0.0"
