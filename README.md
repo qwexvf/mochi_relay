@@ -27,4 +27,8 @@ let connection =
 ## License
 
 Apache-2.0
+---
 
+> **Active development** — APIs may change between releases.
+
+Built with the help of [Claude Code](https://claude.ai/code).
