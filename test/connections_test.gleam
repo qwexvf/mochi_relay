@@ -1,4 +1,4 @@
-// Tests for mochi/connections.gleam module
+// Tests for mochi_relay/connections.gleam module
 // Tests Relay-style connection/pagination helpers
 
 import gleam/dict

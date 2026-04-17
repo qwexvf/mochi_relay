@@ -6,7 +6,7 @@
 //// ## Usage
 ////
 //// ```gleam
-//// import mochi/connections
+//// import mochi_relay/connections
 //// import mochi/query
 ////
 //// // Create connection types for User
