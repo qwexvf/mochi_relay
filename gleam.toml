@@ -1,0 +1,12 @@
+name = "mochi_relay"
+version = "0.1.0"
+description = "Relay-style cursor pagination for mochi GraphQL"
+licences = ["Apache-2.0"]
+repository = { type = "github", user = "qwexvf", repo = "mochi" }
+
+[dependencies]
+gleam_stdlib = ">= 0.44.0 and < 2.0.0"
+mochi = { path = "../mochi" }
+
+[dev-dependencies]
+gleeunit = ">= 1.0.0 and < 2.0.0"
