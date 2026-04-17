@@ -4,8 +4,10 @@ Relay-style cursor pagination for mochi GraphQL.
 
 ## Installation
 
-```sh
-gleam add mochi_relay
+```toml
+# gleam.toml
+[dependencies]
+mochi_relay = { git = "https://github.com/qwexvf/mochi_relay", ref = "main" }
 ```
 
 ## Usage
