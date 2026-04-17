@@ -37,9 +37,7 @@ import gleam/dict.{type Dict}
 import gleam/dynamic.{type Dynamic}
 import gleam/option.{type Option}
 import mochi/schema.{type ArgumentDefinition, type ObjectType}
-import mochi_relay/connections.{
-  type Connection, type ConnectionArgs,
-}
+import mochi_relay/connections.{type Connection, type ConnectionArgs}
 
 pub fn connection_types(name: String) -> #(ObjectType, ObjectType, ObjectType) {
   connections.connection_types(name)
