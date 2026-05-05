@@ -1,16 +1,11 @@
-> **Active development** — breaking changes may be pushed to `main` at any time.
-
-
 # mochi_relay
 
-Relay-style cursor pagination for mochi GraphQL.
+Relay-style cursor pagination for [mochi](https://github.com/qwexvf/mochi) GraphQL.
 
 ## Installation
 
-```toml
-# gleam.toml
-[dependencies]
-mochi_relay = { git = "https://github.com/qwexvf/mochi_relay", ref = "main" }
+```sh
+gleam add mochi_relay
 ```
 
 ## Usage
@@ -30,6 +25,3 @@ let connection =
 ## License
 
 Apache-2.0
-
----
-Built with the help of [Claude Code](https://claude.ai/code).
